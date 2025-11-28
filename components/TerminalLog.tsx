@@ -26,7 +26,7 @@ export const TerminalLog: React.FC<TerminalLogProps> = ({ logs }) => {
 
         {logs.length === 0 && (
           <div className="text-slate-600 italic text-center mt-10 animate-pulse">
-            > Odottamassa syötettä...
+            &gt; Odottamassa syötettä...
           </div>
         )}
         
