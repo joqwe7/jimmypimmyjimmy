@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true, // Expose to network
-    port: 3000
+    port: 3000,
+    allowedHosts: ['laajis.pagekite.me']
   }
 });
